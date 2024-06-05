@@ -7,10 +7,10 @@ function Main() {
         <Header></Header>
         <div className="container mt-1 pt-5">
           <div className="row">
-            <div className="col-sm text-center teg-name">
+            <div className="col-sm teg-name">
               <img src="images/Digital Computer Technology Kotputli tag name.png" alt="" />
               <h1>A Simple Question</h1>
-              <p className="text=start">Discover our online & offline courses in app/web/game
+              <p className="text-start">Discover our online & offline courses in app/web/game
                 development, digital marketing & ethical hacking. Job offers
                 from day one. Basic courses start at INR 5000. Call now for
                 details & offers.</p>
