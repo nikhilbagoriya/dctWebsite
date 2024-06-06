@@ -41,7 +41,7 @@ function Main() {
 
   return (
     <>
-      <section className="first-section"><br />
+      <section className="first-section" style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/images/main-bg.png)`}}><br />
         <Header></Header>
         <div className="container mt-1 pt-5">
         <img className="d-sm-none d-md-none img-fluid" src="images/Digital Computer Technology Kotputli tag name.png" alt="" />

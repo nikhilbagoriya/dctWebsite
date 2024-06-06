@@ -29,8 +29,9 @@
   }
 
 .first-section {
-    background-image: url("https://s3-alpha-sig.figma.com/img/3514/4cd0/2c024e440ed3bc4e2ecf98ffc7e43649?Expires=1717372800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=c4QKY8KaaCORCHa-~vCWKb-QmzUdwamx-90SePioQQr-1tti0MPDcKNhKUPcvs5dSu75saiu7v0p0XJ35oOCwKsXorv4m59V2AhSle8LQyGfYcDmqZ677k7oqv5DLAdXp63~Pqj8Z8i7DqwQH206bj4~mDfivL547MmOdOrNMbXl5rtuuJNDVI9JLb5N6QEtV4bvKAW9dtO4gqckJy3HZ9yn3SHMnFfzvd2Npw5h33zHZ-9YhhLDJwRF4bcf93stXLj4LT4XV2k29YkAbLZ8PDqbvtF-7bOem~GPjd0xQNQXeOwVzvITwy~iNXjCq3LLmGnUgTtHR2DXzWTDibhBdA__");
+    /* background-image: url("/images/main-bg.png"); */
     height: 100%;
+    background-size: cover;
 }
 
 .first-section .container .row .col-sm .img-column .image-1 {
