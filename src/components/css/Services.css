@@ -1,0 +1,132 @@
+:root {
+    --nav-link-color: #000000;
+    --white-color: #fff;
+    --nav-enquery: #67B689;
+    --hover-color: #009541;
+    --course-page: #20C997;
+    --course-light-page: #83f9d6;
+    --about-gray: #F7F7F7;
+    --footer-background: #000000CC;
+    --shadow: -13px 13px 5px -5px #4AACA380;
+    --services-main-color: #006B3B;
+    --disable-color :#80808082;
+    --disable-color2 :#808080e7;
+}
+
+    .services-first-section{
+        height: 600px;
+    }
+    .services-first-section .row .first h1 span{
+        color: var(--services-main-color);
+    }
+    .services-first-section .row .first p{
+        padding: 0px 195px 0px 55px;
+        font-size: 13px;
+        text-align: justify;
+    }
+    .services-second-section .container .row{
+        background-color: var(--services-main-color);
+    }
+    .services-second-section .container .row .col:hover{
+        box-shadow: rgb(255 255 255) 0px 0px 10px;
+    }
+    .services-second-section .container .row .col img{
+        box-shadow: 0px 0px 18px #fff8f8;
+    }
+   
+    .services-third-section .container h2 {
+        margin-top: 5rem;
+    }
+    .services-third-section .container .row .col p {
+        color: var(--disable-color);
+    }
+    .services-third-section .container .row .col h4{
+        color: var(--services-main-color);
+    }
+    .services-third-section .container .row .col div {
+        border-top: 1px dashed var(--hover-color);
+    }
+    .services-third-section .container .row .col .fa-regular{
+        color: var(--hover-color);
+    }
+    
+    .services-fourth-section .row .col h1 span{
+        color: var(--services-main-color);
+    }
+    .services-fiveth-section .container{
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+
+    .services-sixth-section .container .row .col div .li{
+        margin-right: 10px;
+    }
+    .services-sixth-section .container h2 {
+        margin-top: 5rem;
+    }
+    .services-sixth-section .container .row .col .border-line {
+        border-top: 1px dashed var(--hover-color);
+        color: var(--hover-color);
+    }
+    .services-sixth-section .container .row .col .p-des{
+        color: var(--disable-color2);
+    }
+    .services-seventh-section{
+        margin: 100px 0px 0px 0px;
+    }
+    .services-seventh-section .container{
+        background-color: var(--services-main-color);
+        padding: 75px 0px;
+        border-radius: 50px 50px 0px 0px;
+    }
+    .services-seventh-section .container .row span{
+        background: white;
+        padding: 14px 7px 14px 4px;
+        border-radius: 50px;
+    }
+    .services-seventh-section .container .row span input[type="email"] {
+        border: none;
+        padding: 8px 110px 8px 10px;
+    }
+    .services-seventh-section .container .row span input[type="submit"] {
+        padding: 9px 45px;
+    border: none;
+    background-color: var(--services-main-color);
+    color: var(--white-color);
+    }
+
+    /*cheatsheet STYLE*/
+    .cheatsheet-first-section iframe{
+        height: 900px !important;
+    }
+
+
+
+
+    /* Mobile Responshiv */
+@media only screen and (min-width: 320px) and (max-width: 425px) {
+    .services-first-section{
+        height: auto !important;
+    }
+    .services-first-section .row .col{
+        display: block;
+    }
+    .services-first-section .row .first h1{
+        padding: 0 !important;
+        text-align: center;
+    }
+   
+}
+@media only screen and (min-width: 426px) and (max-width: 767px) {
+    
+}
+
+    /* Tablet Responshiv */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    
+}
+    /* Small Laptop Responshiv */
+    @media only screen and (min-width: 1024px) and (max-width: 1439px) {
+        
+
+                }

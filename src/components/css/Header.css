@@ -32,6 +32,10 @@ nav .container-fluid form button a{
 nav .container-fluid ul li ul li{
     margin-bottom: 10px;
 }
+ul .dropdown-menu{
+    height: 400px;
+    overflow-x: hidden;
+}
 nav .container-fluid ul li ul li{
     width: 300px;
     height: 66px;
@@ -39,7 +43,6 @@ nav .container-fluid ul li ul li{
     left: 252px;
     gap: 0px;
     border-radius: 12px;
-    opacity: 0px;
     background: #B7E8CE;
 }
 nav .container-fluid ul li ul li a{

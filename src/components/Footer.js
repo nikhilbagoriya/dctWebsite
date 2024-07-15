@@ -54,10 +54,10 @@ function Footer() {
                     </div>
                     <div className="col-sm py-3">
                         <ul className="d-flex float-end">
-                            <li className="list-unstyled"><img src="images/Digital Computer Technology Kotputli linkedin.png" alt="" /></li>
-                            <li className="list-unstyled"><img src="images/Digital Computer Technology Kotputli twitter.png" alt="" /></li>
-                            <li className="list-unstyled"><img src="images/Digital Computer Technology Kotputli instagram.png" alt="" /></li>
-                            <li className="list-unstyled"><img src="images/Digital Computer Technology Kotputli facebook.png" alt="" /></li>
+                        <li className="list-unstyled"><Link className="text-white list-unstyled text-decoration-none" to="https://www.linkedin.com/company/digitalcomputertechnology/"><img src="images/Digital Computer Technology Kotputli linkedin.png" alt="" /></Link></li>
+                        <li className="list-unstyled"><Link className="text-white list-unstyled text-decoration-none" to="https://twitter.com/dctkotputli"><img src="images/Digital Computer Technology Kotputli twitter.png" alt="" /></Link></li>
+                        <li className="list-unstyled"><Link className="text-white list-unstyled text-decoration-none" to="https://www.instagram.com/digitalcomputerkotputli/"><img src="images/Digital Computer Technology Kotputli instagram.png" alt="" /></Link></li>
+                        <li className="list-unstyled"><Link className="text-white list-unstyled text-decoration-none" to="https://www.facebook.com/DigitalComputerTechnology"><img src="images/Digital Computer Technology Kotputli facebook.png" alt="" /></Link></li>
                         </ul>
                     </div>
                 </div>

@@ -300,7 +300,7 @@ function Main() {
         </div>
       </section>
 
-      <section className="sixth-section">
+      <section className="sixth-section" style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/images/digital_computer_technology_kotputli_ourgoalimages.jpeg)`}}>
         <div>
           <b className="fs-5">OUR GOAL</b>
           <h3>Ptac Software: A One-Stop Shop
@@ -386,7 +386,7 @@ function Main() {
 
       <section className="eight-section">
         <div className="container">
-          <h3 className="fw-bold text-center"><b className="text-center d-block fw-bold">WHAT WE DO</b></h3>
+          <h3 className="fw-bold text-center my-4"><b className="text-center d-block fw-bold">OUR TEAM</b></h3>
           <div className="row">
             <div className="col-sm py-3 bg-white">
               <img className="float-end" src="images/men1 1.png" alt="" />
@@ -415,19 +415,8 @@ function Main() {
         </div>
       </section>
 
-      <section className="nineth-section">
-        <div className="container">
-          <h3 className="fw-bold text-center"><b className="text-center d-block fw-bold">WHAT WE DO</b></h3>
-          <div className="row">
-
-
-          </div>
-        </div>
-      </section>
-
-
       <section className="tenth-section">
-        <div className="container text-center">
+        <div className="container text-center" style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/images/Digital_Computer_Technology_Kotputli_session-bg.jpeg)`}}>
           <h1>Book Free Counselling Session with Experts</h1>
           <p className="fw-bold my-4">Enter your mobile number and recieve a call from our expert</p>
           <form>

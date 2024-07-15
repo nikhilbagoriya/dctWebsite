@@ -41,7 +41,11 @@ footer .container .col-sm{
     width: 49%;
 }
 footer .container .col-sm p{
-    font-size: 12px !important;
+    font-size: 11px !important;
+        text-align: justify;
+}
+footer .container .col-sm ul li{
+    height: auto !important;
 }
 footer .container .links-row .col-sm{
     width: 100%;
